@@ -2445,7 +2445,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x03") (at 265.43 132.08 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 961631e8-e574-4887-9eea-4d570b3a552c)
-    (property "Reference" "LEDS1" (id 0) (at 267.97 132.08 0)
+    (property "Reference" "IO19" (id 0) (at 267.97 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Screw_Terminal_01x0" (id 1) (at 267.97 134.62 0)
@@ -2465,7 +2465,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x03") (at 265.43 151.13 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 94218ccf-b27b-43b9-8648-b418c59906a3)
-    (property "Reference" "LEDS2" (id 0) (at 267.97 151.13 0)
+    (property "Reference" "IO18" (id 0) (at 267.97 151.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Screw_Terminal_01x03" (id 1) (at 267.97 153.67 0)
@@ -2755,17 +2755,17 @@
     (path "/47eee208-b208-4410-aeba-4ec25d1c9cd7/2aa98ba9-24cb-44ae-9573-a9a6ef3910c0"
       (reference "D12") (unit 1) (value "SMAJ22A ") (footprint "Diode_SMD:D_SMA")
     )
+    (path "/94218ccf-b27b-43b9-8648-b418c59906a3"
+      (reference "IO18") (unit 1) (value "Screw_Terminal_01x03") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal")
+    )
+    (path "/961631e8-e574-4887-9eea-4d570b3a552c"
+      (reference "IO19") (unit 1) (value "Screw_Terminal_01x0") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal")
+    )
     (path "/47eee208-b208-4410-aeba-4ec25d1c9cd7/0bd5d8bc-7e06-4be9-948b-a12377a49f3e"
       (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G")
     )
     (path "/85e44615-5398-4df6-a68e-6928783ee401"
       (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
-    )
-    (path "/961631e8-e574-4887-9eea-4d570b3a552c"
-      (reference "LEDS1") (unit 1) (value "Screw_Terminal_01x0") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal")
-    )
-    (path "/94218ccf-b27b-43b9-8648-b418c59906a3"
-      (reference "LEDS2") (unit 1) (value "Screw_Terminal_01x03") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal")
     )
     (path "/47eee208-b208-4410-aeba-4ec25d1c9cd7/b3092f97-a204-4fae-9c1d-1497fb9e338e"
       (reference "Q1") (unit 1) (value "DTC143E") (footprint "Package_TO_SOT_SMD:SOT-323_SC-70")
@@ -2773,8 +2773,8 @@
     (path "/47eee208-b208-4410-aeba-4ec25d1c9cd7/206ced76-2acd-4e01-8fba-afd47dfaa1b9"
       (reference "Q2") (unit 1) (value "DTC143E") (footprint "Package_TO_SOT_SMD:SOT-323_SC-70")
     )
-    (path "/47eee208-b208-4410-aeba-4ec25d1c9cd7/6537105c-3080-407b-a6b0-6ce51ff8bf23"
-      (reference "Q3") (unit 1) (value "DTC143E") (footprint "Package_TO_SOT_SMD:SOT-323_SC-70")
+    (path "/47eee208-b208-4410-aeba-4ec25d1c9cd7/03b7394a-4d90-4878-ad96-097d51563c49"
+      (reference "Q3") (unit 1) (value "BC858W") (footprint "Package_TO_SOT_SMD:SOT-323_SC-70")
     )
     (path "/47eee208-b208-4410-aeba-4ec25d1c9cd7/69799eb9-afd0-4a61-b95d-3f3f0ae2af5d"
       (reference "Q4") (unit 1) (value "IRF8736") (footprint "precise:SOIC-8_3.9x4.9mm_P1.27mm")
